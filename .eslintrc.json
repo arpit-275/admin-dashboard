@@ -16,6 +16,8 @@
   "plugins": ["react"],
   "rules": {
     "linebreak-style": "off",
-    "max-len": [0, 120, "error", { "ignoreUrls": true }]
+    "max-len": [0, 120, "error", { "ignoreUrls": true }],
+    "react/jsx-one-expression-per-line": "off",
+    "react/prop-types": "off"
   }
 }
