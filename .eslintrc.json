@@ -15,6 +15,7 @@
   },
   "plugins": ["react"],
   "rules": {
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "max-len": [0, 120, "error", { "ignoreUrls": true }]
   }
 }
